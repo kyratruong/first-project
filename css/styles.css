@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.home {
+  width: 100%;
+  height: auto;
+}
+.home .hero {
+  width: 100%;
+  height: 1000px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/vogue-header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.home .hero .hero-text {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 855px;
+  font-family: "Courier New", Courier, monospace;
+}
+.home .desc {
+  width: 100%;
+  height: 950px;
+  background-image: url("../images/Black-flower-bkgd1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home .desc .desc-box1 {
+  width: 700px;
+  height: 450px;
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home .desc .desc-box1 .box-text {
+  width: 600px;
+  height: 350px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 50px;
+}
+.home .desc .desc-box1 .box-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.home .desc .desc-box2 {
+  width: 700px;
+  height: 450px;
+  margin-left: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home .desc .desc-box2 .box-text {
+  width: 600px;
+  height: 350px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 70px;
+}
+.home .desc .desc-box2 .box-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  margin-left: 70px;
+}
+
+.about {
+  width: 100%;
+  height: auto;
+}
+.about .hero {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/vogue-logo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.about .desc {
+  width: 100%;
+  height: 950px;
+  background-image: url("../images/White-flower-bkgrd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.about .desc .desc-box1 {
+  width: 700px;
+  height: 450px;
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about .desc .desc-box1 .box-text {
+  width: 600px;
+  height: 350px;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 50px;
+}
+.about .desc .desc-box1 .box-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.about .desc .desc-box2 {
+  width: 700px;
+  height: 450px;
+  margin-left: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about .desc .desc-box2 .box-text {
+  width: 600px;
+  height: 350px;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 70px;
+}
+.about .desc .desc-box2 .box-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  margin-left: 325px;
+}
+
+.products {
+  width: 100%;
+  height: auto;
+}
+.products .hero {
+  width: 100%;
+  height: 980px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/products-hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.products .hero .hero-text {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 855px;
+  font-family: "Courier New", Courier, monospace;
+}
+.products .desc {
+  width: 100%;
+  height: 950px;
+  background-image: url("../images/Black-flower-bkgd1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.products .desc .desc-box1 {
+  width: 700px;
+  height: 450px;
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.products .desc .desc-box1 .model1 {
+  width: 600px;
+  height: 400px;
+  background-image: url("../images/model1.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.products .desc .desc-box2 {
+  width: 700px;
+  height: 450px;
+  margin-left: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.products .desc .desc-box2 .model2 {
+  width: 600px;
+  height: 400px;
+  background-image: url("../images/model3.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.products .desc2 {
+  width: 100%;
+  height: 950px;
+  background-image: url("../images/Black-flower-bkgd1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.products .desc2 .desc-box1 {
+  width: 700px;
+  height: 450px;
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.products .desc2 .desc-box1 .model3 {
+  width: 600px;
+  height: 400px;
+  background-image: url("../images/model2.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.products .desc2 .desc-box2 {
+  width: 700px;
+  height: 450px;
+  margin-left: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.products .desc2 .desc-box2 .model4 {
+  width: 600px;
+  height: 400px;
+  background-image: url("../images/model4.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.contact {
+  width: 100%;
+  height: auto;
+}
+.contact .hero {
+  width: 100%;
+  height: 1000px;
+  background-image: url("../images/Black-flower-bkgd1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .hero h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.contact .desc {
+  width: 100%;
+  height: 950px;
+  background-image: url("../images/White-flower-bkgrd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contact .desc .desc-box1 {
+  width: 700px;
+  height: 450px;
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact .desc .desc-box1 .box-text {
+  width: 600px;
+  height: 350px;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 50px;
+}
+.contact .desc .desc-box1 .box-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.contact .desc .desc-box2 {
+  width: 700px;
+  height: 450px;
+  margin-left: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact .desc .desc-box2 .box-text {
+  width: 600px;
+  height: 350px;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 70px;
+}
+.contact .desc .desc-box2 .box-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  margin-left: 240px;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .logo {
+  width: 200px;
+  height: 100px;
+  background-image: url("../images/vogue-logo.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+footer .icons {
+  width: 400px;
+  height: 190px;
+  margin-top: 10px;
+  background-image: url("../images/icon-set.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

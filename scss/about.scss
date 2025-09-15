@@ -1,0 +1,69 @@
+.about {
+  width: 100%;
+  height: auto;
+  .hero {
+    width: 100%;
+    height: 800px;
+    background-image: url("../images/vogue-logo.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .desc {
+    width: 100%;
+    height: 950px;
+    background-image: url("../images/White-flower-bkgrd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .desc-box1 {
+      width: 700px;
+      height: 450px;
+      margin-left: 250px;
+      //   background-color: red;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .box-text {
+        width: 600px;
+        height: 350px;
+        // background-color: royalblue;
+        color: black;
+        font-family: "Courier New", Courier, monospace;
+        margin-top: 50px;
+
+        h1 {
+          font-size: 40px;
+          font-weight: bold;
+          margin-bottom: 24px;
+        }
+      }
+    }
+    .desc-box2 {
+      width: 700px;
+      height: 450px;
+      margin-left: 650px;
+      //   background-color: red;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .box-text {
+        width: 600px;
+        height: 350px;
+        // background-color: royalblue;
+        color: black;
+        font-family: "Courier New", Courier, monospace;
+        margin-top: 70px;
+
+        h1 {
+          font-size: 40px;
+          font-weight: bold;
+          margin-bottom: 24px;
+          margin-left: 325px;
+        }
+      }
+    }
+  }
+}
